@@ -15,7 +15,9 @@ print (f"a soma é: {soma}")
 print (f"a media é: {media}")
 print (f"o produto é: {mult}")
 print ()
-print (f"maior numero: {maior_numero}")
-print (f"menor numero: {menor_numero}")
 
-
+if numero1 == numero2 :
+  print (f"{numero1} é igual {numero2}")
+else:
+  print (f"maior numero: {maior_numero}")
+  print (f"menor numero: {menor_numero}")
