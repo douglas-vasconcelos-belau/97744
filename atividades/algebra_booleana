@@ -1,0 +1,71 @@
+att1
+
+(a and b) or not (a and b)
+(v and f) or not (v and f)
+f or not f
+f or v
+v
+
+att2
+(v or f) and not(v and f)
+v and not f
+v and v
+v
+
+att3 
+
+not (v and f) and not (v or f)
+not f and not v
+v and f
+f
+
+att4
+
+((v and f) and (v or f)) or (v and f)
+(f and v) or f
+f or f
+f
+
+att5
+
+(v or f) or (not(v and f) or not (v or f))
+v or (not f or not v)
+v or (v or f)
+v or v
+v
+ 
+att6
+
+not (v or f) and (not(v or f) or (v and f))
+not v and (not v or f)
+f and (f or f)
+f and f 
+f  
+
+att7
+
+(v or f) or ((v and f) and not (v or f))
+v or (f and not v)
+v or f
+v
+
+att8 
+
+(not(v and f) and (v and f)) or (v or f)
+(not f and f) or v
+f or v
+v 
+
+att9
+
+((not (v) or f) and not (v and f)) or not (v or f)
+((f or f) and not f) or not v
+(f and v) or not v
+f or f
+f
+
+att10
+
+((not (v) or f) and (v and not (f)) or not f)
+( f and v or v) 
+f
