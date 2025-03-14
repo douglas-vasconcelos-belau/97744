@@ -3,9 +3,9 @@
 #  nome: caracter
 nome = "marta"
 # idade: inteiro
-idade = 18
+idade = 21
 # altura: real
-altura =1.60
+altura = 1.80
 
 print(nome)
 print(idade)
