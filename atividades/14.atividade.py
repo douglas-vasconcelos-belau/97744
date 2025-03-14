@@ -2,9 +2,9 @@ import os
 import time
 
 
-
-for i in range (1,21,1):
-    print (f"valor da variavel: {i}")
-    time.sleep(1) 
+print ("impares de um a vinte")
+for i in range (1,21):
+    if i % 2 == 1:
+        print (f"numeros: {i}") 
 
 print ("acabou")
