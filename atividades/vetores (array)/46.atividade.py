@@ -8,11 +8,15 @@ for i in range (4):
     nota = float(input(f"digite sua {1 + i}º nota : "))
     lista.append(nota)
 
-media = sum (lista) / 4
+def medi ():
+    media = sum (lista) / 4
+    return media
+    
+medias = medi ()
 
-if media >= 7:
+if medias >= 7:
     print("aprovado")
-elif media >= 5:
+elif medias >= 5:
     print("recuperaçao")
 else:
     print("reprovado")
@@ -22,4 +26,4 @@ for nota in lista:
     print(f"nota:{nota}")
 
 print()
-print(f"media: {media}")
+print(f"media: {medias}")
