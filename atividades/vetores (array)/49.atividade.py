@@ -24,7 +24,6 @@ def num():
     
 listapar, listaim, listanume = num()
 
-print()
-print(f"numeros digitados: {listanume}")
-print(f"\nquantidade de numeros pare: {listapar}")
-print(f"quantidade de numeros impare: {listaim}")
+print(f"\nnumeros digitados: {listanume}")
+print(f"\nnumeros pares: {listapar}")
+print(f"numeros impare: {listaim}")
