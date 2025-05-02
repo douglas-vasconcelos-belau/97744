@@ -37,7 +37,7 @@ if login_c == login and senha_c == senha:
 
       
       
-    def irr (irrf):
+
        
 
 
