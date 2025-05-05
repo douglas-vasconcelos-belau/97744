@@ -29,7 +29,6 @@ while True:
 
       desconto_vale = vale_refei * 0.20
       desconto_plano_de_saude = 150.00 * dependentes
-      reduçao_d = 189.59 * dependentes  
       
       def inss (salario_inss):
         
@@ -41,7 +40,27 @@ while True:
           return salario_inss == salario_b * 0.12 - 189.54
         elif salario_b <= 8157.41 :
           return salario_inss == salario_b * 0.14 - 318.38
+        
+      def irrf (salario_irrf):
+  
+       reduçao_d = 189.59 * dependentes
+       calculo = salario_b - reduçao_d
 
+       if calculo <= 2259.20:
+         return 0
+       elif calculo <= 2826.65:
+         return calculo * 0.075 - 169.44
+       elif calculo <= 3751.05:
+         return calculo * 0.15 - 381.44
+       elif calculo <= 4664.68:
+         return calculo * 0.225 - 662.77
+       else:
+         return calculo * 0.275 - 896.00
+
+
+      
+      
+      
       break
       
 
