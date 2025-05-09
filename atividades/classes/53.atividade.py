@@ -25,8 +25,8 @@ class pessoa:
 
     # funcao = metodo
     def exibir_dados(self):
-        print(f"nome: {self.nome}")
-        print(f"idade: {self.idade}")
+        print(f"nome: {self.nome}"),
+        print(f"idade: {self.idade}"),
         print(f"endereço: {self.endereco.logradouro}, numero: {self. endereco.numero}")
 
 Endereco1 = Endereco(input("digite seu Endereço: "))
