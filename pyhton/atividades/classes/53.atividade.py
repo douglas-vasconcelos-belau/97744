@@ -34,6 +34,6 @@ pessoa1 = pessoa (nome1,idade1, Endereco1)
 pessoa1.exibir_dados()
 
 print()
-Endereco2 = Endereco(input("digite seu ENdereço: "))
+Endereco2 = Endereco(input("digite seu Endereço: "))
 pessoa2 = pessoa (nome2, idade2, Endereco2)
 pessoa2.exibir_dados()
