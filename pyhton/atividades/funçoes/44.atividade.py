@@ -7,7 +7,6 @@ soma = 0
 def calculo(soma):
     return soma / 2
     
-    
 for i in range (2):
 
     nota = float (input(f"digite o {1+i} numero: "))
